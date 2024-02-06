@@ -1,1 +1,3 @@
 # Decoding-Message-File
+
+This project is a solution to a test interview task, where the objective was to create a function named decode(message_file) capable of decoding an encoded message stored in a .txt file and returning its decoded version as a string. The encoded message is structured in a pyramid-like format within the file, with each line containing a number followed by a word. The task involves decoding the hidden message based on the arrangement of these numbers in the pyramid structure. The decoding process involves extracting the words corresponding to the numbers at the end of each pyramid line and ignoring all other words. The function processes the input file and returns the decoded message as a string.
